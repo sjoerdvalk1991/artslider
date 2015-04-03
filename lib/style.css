@@ -1,0 +1,26 @@
+body{
+	background-color: #000;
+}
+
+.section{
+	background-size: cover !important;
+	background-repeat: none;
+	float: none !important;
+}
+
+.inner{
+	display: table;
+	height:	inherit;
+	width: 100%;
+	position: absolute;
+	padding: 50px;
+}
+
+.table-cell {
+	display: table-cell;
+	box-sizing: content-box;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
